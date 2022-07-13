@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.first{
+    width: 50%;
+    height: 800px;
+    background-color: deepskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 35px;
+}
+
+.second{
+    width: 50%;
+    height: 800px;
+    background-color: deepskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 35px;
+}
+
+.target{
+    width: 95%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.picture{
+    width: 5%;
+    margin-right: 45px;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-brands{
+    color: grey;
+    font-size: 50px;
+
+}
+
+.fa-solid{
+    color: grey;
+    font-size: 50px;
+}
+
+p{
+    text-align: justify;
+    padding-right: 25px;
+}
+
+h2{
+    color: #a28d10;
+    margin-bottom: 0;
+}
+
